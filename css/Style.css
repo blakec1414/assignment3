@@ -1,2 +1,51 @@
-body{background: red;
+*{
+	box-sizing: border-box;
+}
+body,html {
+	min-height: 100vh;
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+}
+img {
+	max-width: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+}
+main {
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header {
+	border-bottom: 1px solid grey;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+  background-image: url(../img/arrow.png);
+  width: 40px;
+  height: 40px;
+  background-size: 100%;
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+footer{
+	display: grid;
+	grid-template-columns: 300px 300px;
+	justify-content: center;
+	grid-gap: 50px;
+
+}
+.credits {
+	text-align: right;
 }
