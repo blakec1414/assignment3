@@ -46,8 +46,19 @@ footer{
 	grid-template-columns: 300px 300px;
 	justify-content: center;
 	grid-gap: 50px;
-
 }
+
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
 .credits {
 	text-align: right;
+}
+.joke {
+	font-size: 50px;
+	font-weight: bold;
+	cursor: url(../img/cursor.png), auto;
 }
