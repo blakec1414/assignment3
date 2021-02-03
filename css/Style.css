@@ -12,6 +12,7 @@ img {
 body {
 	display: flex;
 	flex-direction: column;
+	background-color: #F72585;
 }
 main {
 	flex-grow: 1;
@@ -51,7 +52,7 @@ footer{
 
 a {
     text-decoration: none;
-    color: red;
+    color: white;
 }
 
 .credits {
@@ -61,4 +62,8 @@ a {
 	font-size: 50px;
 	font-weight: bold;
 	cursor: url(../img/cursor.png), auto;
+}
+
+.joke h4:not(:first-child){
+	display: none;
 }
